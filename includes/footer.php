@@ -1,6 +1,6 @@
 <?php
 // includes/footer.php
-if ($currentPage !== 'home4'):
+if ($currentPage !== 'home4' && $currentPage !== 'home5'):
 ?>
   <!-- Admission Call To Action Banner -->
   <section class="admission-cta-section">

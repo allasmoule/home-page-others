@@ -1,6 +1,6 @@
 # home-page-others
 
-A collection of 4 distinct, modern, responsive school and college homepage designs built with PHP, Vanilla CSS, and JavaScript.
+A collection of 5 distinct, modern, responsive school and college homepage designs built with PHP, Vanilla CSS, and JavaScript.
 
 ## 🚀 Homepages Included
 
@@ -16,6 +16,9 @@ A collection of 4 distinct, modern, responsive school and college homepage desig
 4. **Home 4 (Rivermount School - Minimal Black & White)** - `home4.php`
    - High-contrast minimal design with "Learn Grow Lead" typography, 6 key institutional features, academic stage cards (Primary, Secondary, Higher Secondary), facility tiles, split notices & events, and parent testimonials.
 
+5. **Home 5 (Bright Future School - Modern Editorial Layout)** - `home5.php`
+   - Clean aesthetic with "Nurturing Bright Minds For a Better Future", elevated floating stats bar, 3-column About section (Content + Campus Photo + 3 Feature Boxes), 4-stage academic cards with classroom photo, triple-column split (Notices, Events & Dark 2026 Admission Promo card), 6-item gallery, and parent testimonials.
+
 ## 🛠️ Tech Stack
 - **Backend:** PHP 8.x
 - **Frontend:** HTML5, Vanilla CSS3 (Custom Design System), JavaScript (ES6)
@@ -25,4 +28,4 @@ A collection of 4 distinct, modern, responsive school and college homepage desig
 ```bash
 php -S 127.0.0.1:8080
 ```
-Open `http://127.0.0.1:8080/index.php` or `http://127.0.0.1:8080/home4.php` in your browser.
+Open `http://127.0.0.1:8080/index.php` or `http://127.0.0.1:8080/home5.php` in your browser.

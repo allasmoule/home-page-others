@@ -2,7 +2,9 @@
 // includes/header.php
 $currentPage = $currentPage ?? 'home1';
 if (!isset($siteTitle)) {
-  if ($currentPage === 'home4') {
+  if ($currentPage === 'home5') {
+    $siteTitle = "Bright Future School | Learn Today, Build Tomorrow";
+  } elseif ($currentPage === 'home4') {
     $siteTitle = "Rivermount School | Learn, Grow, Lead";
   } elseif ($currentPage === 'home3') {
     $siteTitle = "গ্রীন ভ্যালি মডেল স্কুল এন্ড কলেজ | ভালো শিক্ষা, উজ্জ্বল ভবিষ্যৎ";
@@ -54,6 +56,9 @@ if (!isset($siteTitle)) {
           <a href="home4.php" class="home-switch-tab <?php echo ($currentPage === 'home4') ? 'active' : ''; ?>">
             <i class="fa-solid fa-book-open"></i> Home 4 (Rivermount)
           </a>
+          <a href="home5.php" class="home-switch-tab <?php echo ($currentPage === 'home5') ? 'active' : ''; ?>">
+            <i class="fa-solid fa-sun"></i> Home 5 (Bright Future)
+          </a>
         </div>
       </div>
       <div class="top-bar-right">
@@ -73,7 +78,7 @@ if (!isset($siteTitle)) {
     </div>
   </div>
 
-  <?php if ($currentPage !== 'home4'): ?>
+  <?php if ($currentPage !== 'home4' && $currentPage !== 'home5'): ?>
   <!-- Main School Branding Header -->
   <header class="main-header">
     <div class="container header-container">
