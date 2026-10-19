@@ -20,15 +20,15 @@ require_once __DIR__ . '/includes/header.php';
         </div>
       </a>
 
-      <!-- Navigation Links -->
+      <!-- Navigation Links with Monochrome Emojis -->
       <nav class="s6-nav-links">
-        <a href="home6.php" class="s6-nav-item active">Home</a>
-        <a href="#aboutSection" class="s6-nav-item">About</a>
-        <a href="#programsSection" class="s6-nav-item">Academics</a>
-        <a href="#noticesEventsSection" class="s6-nav-item">Admission</a>
-        <a href="#noticesEventsSection" class="s6-nav-item">Notice</a>
-        <a href="#gallerySection" class="s6-nav-item">Gallery</a>
-        <a href="#contactSection" class="s6-nav-item">Contact</a>
+        <a href="home6.php" class="s6-nav-item active"><span class="s6-mono-emoji">🏠</span>Home</a>
+        <a href="#aboutSection" class="s6-nav-item"><span class="s6-mono-emoji">🏫</span>About</a>
+        <a href="#programsSection" class="s6-nav-item"><span class="s6-mono-emoji">📚</span>Academics</a>
+        <a href="#noticesEventsSection" class="s6-nav-item"><span class="s6-mono-emoji">🎒</span>Admission</a>
+        <a href="#noticesEventsSection" class="s6-nav-item"><span class="s6-mono-emoji">📢</span>Notice</a>
+        <a href="#gallerySection" class="s6-nav-item"><span class="s6-mono-emoji">🖼️</span>Gallery</a>
+        <a href="#contactSection" class="s6-nav-item"><span class="s6-mono-emoji">📞</span>Contact</a>
       </nav>
 
       <!-- Right Actions: Language, Search & Student Login -->
@@ -42,27 +42,51 @@ require_once __DIR__ . '/includes/header.php';
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
         <button class="s6-login-btn" onclick="openModal('portalModal')">
-          <i class="fa-solid fa-user"></i> Student Login
+          <span class="s6-mono-emoji">👤</span> Student Login
         </button>
       </div>
 
     </div>
   </header>
 
-  <!-- ==================== 2. HERO / PRINCIPAL'S MESSAGE SECTION ==================== -->
+  <!-- ==================== 2. HERO / PRINCIPAL'S MESSAGE SECTION (WITH 3D ELEMENTS) ==================== -->
   <section class="s6-hero-section">
     <div class="container s6-hero-grid">
       
-      <!-- Left Column: Principal Photo with Authentic Embedded Badge -->
+      <!-- Left Column: Principal Photo with 3D Rotating Cube & 3D Floating Crest Badge -->
       <div class="s6-hero-photo-col">
-        <div class="s6-hero-photo-wrap">
+        <div class="s6-hero-photo-wrap s6-3d-tilt" data-tilt-max="8">
+          
+          <!-- 3D Geometric Floating Wireframe Cube -->
+          <div class="s6-3d-scene" aria-hidden="true">
+            <div class="s6-3d-cube">
+              <div class="s6-cube-face s6-cube-front"><span class="s6-mono-emoji" style="margin:0;">🎓</span> SIS</div>
+              <div class="s6-cube-face s6-cube-back"><span class="s6-mono-emoji" style="margin:0;">🏆</span> 2026</div>
+              <div class="s6-cube-face s6-cube-right"><span class="s6-mono-emoji" style="margin:0;">✨</span> STEM</div>
+              <div class="s6-cube-face s6-cube-left"><span class="s6-mono-emoji" style="margin:0;">📚</span> A+</div>
+              <div class="s6-cube-face s6-cube-top"><span class="s6-mono-emoji" style="margin:0;">🏛️</span> 1998</div>
+              <div class="s6-cube-face s6-cube-bottom"><span class="s6-mono-emoji" style="margin:0;">🌟</span> LEAD</div>
+            </div>
+          </div>
+
+          <!-- 3D Floating Multi-Layered Crest Badge -->
+          <div class="s6-3d-hero-badge">
+            <div class="s6-3d-badge-icon">
+              <span class="s6-mono-emoji" style="margin:0;">🏛️</span>
+            </div>
+            <div class="s6-3d-badge-text">
+              <strong>#1 Cambridge &amp; National</strong>
+              <span>Discipline • Knowledge • Excellence</span>
+            </div>
+          </div>
+
           <img src="assets/images/s6_hero_principal.jpg" alt="Principal Md. Abul Kashem" class="s6-hero-principal-img">
         </div>
       </div>
 
       <!-- Right Column: Principal's Message & Handwritten Tagline -->
       <div class="s6-hero-content-col">
-        <span class="s6-eyebrow">PRINCIPAL'S MESSAGE</span>
+        <span class="s6-eyebrow"><span class="s6-mono-emoji">🎓</span> PRINCIPAL'S MESSAGE</span>
         <h1 class="s6-hero-title">
           Education Today<br>
           For a Better Tomorrow
@@ -73,7 +97,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="s6-hero-action-row">
           <button class="s6-btn-dark" onclick="openModal('principalModal')">
-            Read Principal's Message <i class="fa-solid fa-arrow-right"></i>
+            <span class="s6-mono-emoji">📖</span> Read Principal's Message <i class="fa-solid fa-arrow-right"></i>
           </button>
           
           <div class="s6-hero-script-wrap">
@@ -92,7 +116,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Feature 1 -->
       <div class="s6-feat-item">
         <div class="s6-feat-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+          <span class="s6-mono-emoji" style="font-size:1.6rem; margin:0;">🎓</span>
         </div>
         <span class="s6-feat-text">Quality Education</span>
       </div>
@@ -100,7 +124,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Feature 2 -->
       <div class="s6-feat-item">
         <div class="s6-feat-icon">
-          <i class="fa-solid fa-user-group"></i>
+          <span class="s6-mono-emoji" style="font-size:1.6rem; margin:0;">👥</span>
         </div>
         <span class="s6-feat-text">Experienced Teachers</span>
       </div>
@@ -108,7 +132,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Feature 3 -->
       <div class="s6-feat-item">
         <div class="s6-feat-icon">
-          <i class="fa-solid fa-book-open"></i>
+          <span class="s6-mono-emoji" style="font-size:1.6rem; margin:0;">🏛️</span>
         </div>
         <span class="s6-feat-text">Modern Facilities</span>
       </div>
@@ -116,7 +140,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Feature 4 -->
       <div class="s6-feat-item">
         <div class="s6-feat-icon">
-          <i class="fa-solid fa-shield-halved"></i>
+          <span class="s6-mono-emoji" style="font-size:1.6rem; margin:0;">🛡️</span>
         </div>
         <span class="s6-feat-text">Safe Environment</span>
       </div>
@@ -124,7 +148,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Feature 5 -->
       <div class="s6-feat-item">
         <div class="s6-feat-icon">
-          <i class="fa-regular fa-lightbulb"></i>
+          <span class="s6-mono-emoji" style="font-size:1.6rem; margin:0;">🎨</span>
         </div>
         <span class="s6-feat-text">Co-curricular Activities</span>
       </div>
@@ -132,7 +156,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Feature 6 -->
       <div class="s6-feat-item">
         <div class="s6-feat-icon">
-          <i class="fa-solid fa-chart-simple"></i>
+          <span class="s6-mono-emoji" style="font-size:1.6rem; margin:0;">🌟</span>
         </div>
         <span class="s6-feat-text">Bright Future</span>
       </div>
@@ -140,13 +164,13 @@ require_once __DIR__ . '/includes/header.php';
     </div>
   </section>
 
-  <!-- ==================== 4. ABOUT OUR SCHOOL SECTION ==================== -->
+  <!-- ==================== 4. ABOUT OUR SCHOOL SECTION (WITH 3D STATS DOCK) ==================== -->
   <section class="s6-about-section" id="aboutSection">
     <div class="container s6-about-grid">
       
       <!-- Left Column: Narrative -->
       <div class="s6-about-text-col">
-        <span class="s6-eyebrow">ABOUT OUR SCHOOL</span>
+        <span class="s6-eyebrow"><span class="s6-mono-emoji">🏛️</span> ABOUT OUR SCHOOL</span>
         <h2 class="s6-about-title">
           Nurturing<br>
           Young Minds
@@ -155,28 +179,48 @@ require_once __DIR__ . '/includes/header.php';
           Sunrise International School is committed to providing high-quality education with strong moral values, modern teaching methods and a supportive environment. We develop responsible, confident and compassionate individuals for a brighter future.
         </p>
         <button class="s6-btn-dark" onclick="openAboutModal()">
-          Learn More About Us <i class="fa-solid fa-arrow-right"></i>
+          <span class="s6-mono-emoji">🔍</span> Learn More About Us <i class="fa-solid fa-arrow-right"></i>
         </button>
       </div>
 
-      <!-- Right Column: Building Facade with Integrated Stats Bar -->
+      <!-- Right Column: Building Facade with 3D Card and 3D Floating Stats Dock -->
       <div class="s6-about-visual-col">
-        <div class="s6-building-card">
+        <div class="s6-building-card s6-3d-tilt" data-tilt-max="6">
           <img src="assets/images/s6_building.jpg" alt="Sunrise International School Campus" class="s6-building-img">
+        </div>
+
+        <!-- 3D Floating Stats Dock with Monochrome Emojis -->
+        <div class="s6-3d-stats-dock">
+          <div class="s6-3d-stat-box">
+            <div class="s6-3d-stat-num"><span class="s6-mono-emoji">🎓</span>1,250+</div>
+            <span class="s6-3d-stat-label">Enrolled Students</span>
+          </div>
+          <div class="s6-3d-stat-box">
+            <div class="s6-3d-stat-num"><span class="s6-mono-emoji">👨‍🏫</span>75+</div>
+            <span class="s6-3d-stat-label">Qualified Teachers</span>
+          </div>
+          <div class="s6-3d-stat-box">
+            <div class="s6-3d-stat-num"><span class="s6-mono-emoji">🏆</span>98%</div>
+            <span class="s6-3d-stat-label">Pass Rate</span>
+          </div>
+          <div class="s6-3d-stat-box">
+            <div class="s6-3d-stat-num"><span class="s6-mono-emoji">⏳</span>15+</div>
+            <span class="s6-3d-stat-label">Years of Glory</span>
+          </div>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- ==================== 5. OUR ACADEMIC PROGRAMS SECTION ==================== -->
+  <!-- ==================== 5. OUR ACADEMIC PROGRAMS SECTION (WITH 3D CARDS) ==================== -->
   <section class="s6-programs-section" id="programsSection">
     <div class="container">
       
       <!-- Section Header -->
       <div class="s6-sec-header">
         <div>
-          <span class="s6-eyebrow">OUR ACADEMIC PROGRAMS</span>
+          <span class="s6-eyebrow"><span class="s6-mono-emoji">📚</span> OUR ACADEMIC PROGRAMS</span>
           <h2 class="s6-sec-title">Programs For Every Stage</h2>
         </div>
         <a href="#programsSection" class="s6-view-all-link" onclick="alert('Viewing comprehensive curriculum details for all sections...')">
@@ -184,17 +228,17 @@ require_once __DIR__ . '/includes/header.php';
         </a>
       </div>
 
-      <!-- 4 Program Cards Grid -->
+      <!-- 4 Program Cards Grid with 3D Tilt -->
       <div class="s6-programs-grid">
         
         <!-- Program 1: Primary Section -->
-        <div class="s6-prog-card">
+        <div class="s6-prog-card s6-3d-tilt" data-tilt-max="10">
           <div class="s6-prog-img-wrap">
             <img src="assets/images/s6_prog_primary.jpg" alt="Primary Section" class="s6-prog-img">
           </div>
           <div class="s6-prog-content">
             <div class="s6-prog-header">
-              <h3 class="s6-prog-name">Primary Section</h3>
+              <h3 class="s6-prog-name"><span class="s6-mono-emoji">🌱</span> Primary Section</h3>
               <button class="s6-prog-circle-btn" onclick="openProgramDetails('Primary Section', 'Class 1 – 5', 'Focus on language foundations, interactive arithmetic, creative discovery and social skills.')" title="Explore Primary">
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -205,13 +249,13 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Program 2: Secondary Section -->
-        <div class="s6-prog-card">
+        <div class="s6-prog-card s6-3d-tilt" data-tilt-max="10">
           <div class="s6-prog-img-wrap">
             <img src="assets/images/s6_prog_secondary.jpg" alt="Secondary Section" class="s6-prog-img">
           </div>
           <div class="s6-prog-content">
             <div class="s6-prog-header">
-              <h3 class="s6-prog-name">Secondary Section</h3>
+              <h3 class="s6-prog-name"><span class="s6-mono-emoji">📐</span> Secondary Section</h3>
               <button class="s6-prog-circle-btn" onclick="openProgramDetails('Secondary Section', 'Class 6 – 10', 'Advanced STEM courses, critical analytical reasoning, literature and national board preparation.')" title="Explore Secondary">
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -222,13 +266,13 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Program 3: Higher Secondary -->
-        <div class="s6-prog-card">
+        <div class="s6-prog-card s6-3d-tilt" data-tilt-max="10">
           <div class="s6-prog-img-wrap">
             <img src="assets/images/s6_prog_higher.jpg" alt="Higher Secondary" class="s6-prog-img">
           </div>
           <div class="s6-prog-content">
             <div class="s6-prog-header">
-              <h3 class="s6-prog-name">Higher Secondary</h3>
+              <h3 class="s6-prog-name"><span class="s6-mono-emoji">🎓</span> Higher Secondary</h3>
               <button class="s6-prog-circle-btn" onclick="openProgramDetails('Higher Secondary', 'Class 11 – 12', 'Science, Business Studies & Humanities streams with top university admission preparation.')" title="Explore Higher Secondary">
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -239,13 +283,13 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Program 4: Co-curricular Activities -->
-        <div class="s6-prog-card">
+        <div class="s6-prog-card s6-3d-tilt" data-tilt-max="10">
           <div class="s6-prog-img-wrap">
             <img src="assets/images/s6_prog_cocurricular.jpg" alt="Co-curricular Activities" class="s6-prog-img">
           </div>
           <div class="s6-prog-content">
             <div class="s6-prog-header">
-              <h3 class="s6-prog-name">Co-curricular Activities</h3>
+              <h3 class="s6-prog-name"><span class="s6-mono-emoji">🏆</span> Co-curricular Activities</h3>
               <button class="s6-prog-circle-btn" onclick="openProgramDetails('Co-curricular Activities', 'Sports, Arts, Culture', 'Clubs, debates, football, music orchestra, science fairs and leadership seminars.')" title="Explore Activities">
                 <i class="fa-solid fa-arrow-right"></i>
               </button>
@@ -260,14 +304,14 @@ require_once __DIR__ . '/includes/header.php';
     </div>
   </section>
 
-  <!-- ==================== 6. TRIPLE SPLIT: NOTICES | EVENTS | ADMISSION ==================== -->
+  <!-- ==================== 6. TRIPLE SPLIT: NOTICES | EVENTS | ADMISSION (WITH 3D) ==================== -->
   <section class="s6-triple-section" id="noticesEventsSection">
     <div class="container s6-triple-grid">
       
       <!-- Column 1: Latest Notices -->
       <div class="s6-notices-col">
         <div class="s6-sub-header">
-          <h3 class="s6-sub-title">LATEST NOTICES</h3>
+          <h3 class="s6-sub-title"><span class="s6-mono-emoji">📢</span> LATEST NOTICES</h3>
           <a href="#noticesEventsSection" class="s6-view-link" onclick="alert('Opening official notices board...')">View All <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         
@@ -280,7 +324,7 @@ require_once __DIR__ . '/includes/header.php';
               <span class="s6-db-month">Oct</span>
             </div>
             <div class="s6-feed-info">
-              <h4 class="s6-feed-title">Annual Exam 2026 – Routine Published</h4>
+              <h4 class="s6-feed-title"><span class="s6-mono-emoji">📝</span> Annual Exam 2026 – Routine Published</h4>
               <p class="s6-feed-desc">The routine for the annual examination has been published.</p>
             </div>
             <i class="fa-solid fa-chevron-right s6-feed-arrow"></i>
@@ -293,7 +337,7 @@ require_once __DIR__ . '/includes/header.php';
               <span class="s6-db-month">Oct</span>
             </div>
             <div class="s6-feed-info">
-              <h4 class="s6-feed-title">Parent-Teacher Meeting</h4>
+              <h4 class="s6-feed-title"><span class="s6-mono-emoji">🤝</span> Parent-Teacher Meeting</h4>
               <p class="s6-feed-desc">All parents are requested to attend the meeting.</p>
             </div>
             <i class="fa-solid fa-chevron-right s6-feed-arrow"></i>
@@ -306,7 +350,7 @@ require_once __DIR__ . '/includes/header.php';
               <span class="s6-db-month">Oct</span>
             </div>
             <div class="s6-feed-info">
-              <h4 class="s6-feed-title">Winter Vacation Notice</h4>
+              <h4 class="s6-feed-title"><span class="s6-mono-emoji">❄️</span> Winter Vacation Notice</h4>
               <p class="s6-feed-desc">The school will remain closed from 20 Dec – 5 Jan.</p>
             </div>
             <i class="fa-solid fa-chevron-right s6-feed-arrow"></i>
@@ -318,7 +362,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Column 2: Upcoming Events -->
       <div class="s6-events-col">
         <div class="s6-sub-header">
-          <h3 class="s6-sub-title">UPCOMING EVENTS</h3>
+          <h3 class="s6-sub-title"><span class="s6-mono-emoji">📅</span> UPCOMING EVENTS</h3>
           <a href="#noticesEventsSection" class="s6-view-link" onclick="alert('Viewing full academic events calendar...')">View All <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
@@ -331,7 +375,7 @@ require_once __DIR__ . '/includes/header.php';
               <span class="s6-db-month">Oct</span>
             </div>
             <div class="s6-feed-info">
-              <h4 class="s6-feed-title">Science Fair 2026</h4>
+              <h4 class="s6-feed-title"><span class="s6-mono-emoji">🔬</span> Science Fair 2026</h4>
               <p class="s6-feed-desc">10:00 AM – 2:00 PM</p>
             </div>
             <i class="fa-solid fa-chevron-right s6-feed-arrow"></i>
@@ -344,7 +388,7 @@ require_once __DIR__ . '/includes/header.php';
               <span class="s6-db-month">Nov</span>
             </div>
             <div class="s6-feed-info">
-              <h4 class="s6-feed-title">Inter-Class Sports</h4>
+              <h4 class="s6-feed-title"><span class="s6-mono-emoji">⚽</span> Inter-Class Sports</h4>
               <p class="s6-feed-desc">9:00 AM – 4:00 PM</p>
             </div>
             <i class="fa-solid fa-chevron-right s6-feed-arrow"></i>
@@ -357,7 +401,7 @@ require_once __DIR__ . '/includes/header.php';
               <span class="s6-db-month">Dec</span>
             </div>
             <div class="s6-feed-info">
-              <h4 class="s6-feed-title">Victory Day Celebration</h4>
+              <h4 class="s6-feed-title"><span class="s6-mono-emoji">🎖️</span> Victory Day Celebration</h4>
               <p class="s6-feed-desc">10:00 AM – 1:00 PM</p>
             </div>
             <i class="fa-solid fa-chevron-right s6-feed-arrow"></i>
@@ -366,19 +410,19 @@ require_once __DIR__ . '/includes/header.php';
         </div>
       </div>
 
-      <!-- Column 3: Admission Now Open Card -->
+      <!-- Column 3: Admission Now Open Card (with 3D Parallax Tilt) -->
       <div class="s6-admission-col">
-        <div class="s6-admission-card">
+        <div class="s6-admission-card s6-3d-tilt" data-tilt-max="7">
           <div class="s6-adm-text">
             <h3 class="s6-adm-title">
-              Admission<br>
+              <span class="s6-mono-emoji">🎒</span> Admission<br>
               Now Open
             </h3>
             <p class="s6-adm-desc">
               Give your child the opportunity to learn, grow and build a brighter future.
             </p>
             <button class="s6-btn-dark s6-btn-sm" onclick="openModal('admissionModal')">
-              Apply for Admission <i class="fa-solid fa-arrow-right"></i>
+              <span class="s6-mono-emoji">✍️</span> Apply for Admission <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
           <div class="s6-adm-img-wrap">
@@ -396,7 +440,7 @@ require_once __DIR__ . '/includes/header.php';
       
       <!-- Section Header -->
       <div class="s6-sec-header">
-        <h2 class="s6-sec-title">OUR GALLERY</h2>
+        <h2 class="s6-sec-title"><span class="s6-mono-emoji">🖼️</span> OUR GALLERY</h2>
         <a href="#gallerySection" class="s6-view-all-link" onclick="alert('Opening photo gallery archive...')">
           View All Photos <i class="fa-solid fa-arrow-right"></i>
         </a>
@@ -433,7 +477,7 @@ require_once __DIR__ . '/includes/header.php';
       
       <!-- Header with Carousel Dots -->
       <div class="s6-sec-header">
-        <h2 class="s6-sec-title">WHAT PARENTS SAY</h2>
+        <h2 class="s6-sec-title"><span class="s6-mono-emoji">💬</span> WHAT PARENTS SAY</h2>
         <div class="s6-testi-dots">
           <span class="s6-dot active"></span>
           <span class="s6-dot"></span>
@@ -496,21 +540,21 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Column 2: Quick Links -->
       <div class="s6-footer-col">
-        <h4 class="s6-footer-heading">Quick Links</h4>
+        <h4 class="s6-footer-heading"><span class="s6-mono-emoji">🔗</span> Quick Links</h4>
         <ul class="s6-footer-links">
-          <li><a href="home6.php">Home</a></li>
-          <li><a href="#aboutSection">About Us</a></li>
-          <li><a href="#programsSection">Academics</a></li>
-          <li><a href="#noticesEventsSection" onclick="openModal('admissionModal')">Admission</a></li>
-          <li><a href="#noticesEventsSection">Notice</a></li>
-          <li><a href="#gallerySection">Gallery</a></li>
-          <li><a href="#contactSection">Contact</a></li>
+          <li><a href="home6.php"><span class="s6-mono-emoji">🏠</span> Home</a></li>
+          <li><a href="#aboutSection"><span class="s6-mono-emoji">🏫</span> About Us</a></li>
+          <li><a href="#programsSection"><span class="s6-mono-emoji">📚</span> Academics</a></li>
+          <li><a href="#noticesEventsSection" onclick="openModal('admissionModal')"><span class="s6-mono-emoji">🎒</span> Admission</a></li>
+          <li><a href="#noticesEventsSection"><span class="s6-mono-emoji">📢</span> Notice</a></li>
+          <li><a href="#gallerySection"><span class="s6-mono-emoji">🖼️</span> Gallery</a></li>
+          <li><a href="#contactSection"><span class="s6-mono-emoji">📞</span> Contact</a></li>
         </ul>
       </div>
 
       <!-- Column 3: Contact Us -->
       <div class="s6-footer-col">
-        <h4 class="s6-footer-heading">Contact Us</h4>
+        <h4 class="s6-footer-heading"><span class="s6-mono-emoji">📍</span> Contact Us</h4>
         <ul class="s6-footer-contact">
           <li>
             <i class="fa-solid fa-location-dot"></i>
@@ -533,7 +577,7 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Column 4: Newsletter -->
       <div class="s6-footer-col">
-        <h4 class="s6-footer-heading">Newsletter</h4>
+        <h4 class="s6-footer-heading"><span class="s6-mono-emoji">📬</span> Newsletter</h4>
         <p class="s6-newsletter-desc">Subscribe to get the latest news and updates.</p>
         <form class="s6-newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Sunrise International School newsletter!');">
           <input type="email" placeholder="Enter your email address" required class="s6-newsletter-input">
@@ -650,6 +694,36 @@ function openNoticeModal(title, date, desc) {
     </div>
   `;
   openModal('noticeModal');
+}
+
+// 3D Mouse Parallax & Dynamic Tilt Engine for Home 6
+function initS63DTilt() {
+  const tiltCards = document.querySelectorAll('.s6-3d-tilt');
+  tiltCards.forEach(card => {
+    const maxTilt = parseFloat(card.getAttribute('data-tilt-max')) || 8;
+    
+    card.addEventListener('mousemove', e => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      const rotateX = ((y - centerY) / centerY) * -maxTilt;
+      const rotateY = ((x - centerX) / centerX) * maxTilt;
+      
+      card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) scale3d(1.02, 1.02, 1.02)`;
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initS63DTilt);
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+  initS63DTilt();
 }
 </script>
 
