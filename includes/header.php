@@ -2,7 +2,9 @@
 // includes/header.php
 $currentPage = $currentPage ?? 'home1';
 if (!isset($siteTitle)) {
-  if ($currentPage === 'home5') {
+  if ($currentPage === 'home6') {
+    $siteTitle = "Sunrise International School | Discipline • Knowledge • Better Future";
+  } elseif ($currentPage === 'home5') {
     $siteTitle = "Bright Future School | Learn Today, Build Tomorrow";
   } elseif ($currentPage === 'home4') {
     $siteTitle = "Rivermount School | Learn, Grow, Lead";

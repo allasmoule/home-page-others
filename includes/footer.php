@@ -1,6 +1,6 @@
 <?php
 // includes/footer.php
-if ($currentPage !== 'home3' && $currentPage !== 'home4' && $currentPage !== 'home5'):
+if ($currentPage !== 'home3' && $currentPage !== 'home4' && $currentPage !== 'home5' && $currentPage !== 'home6'):
 ?>
   <!-- Admission Call To Action Banner -->
   <section class="admission-cta-section">
@@ -462,6 +462,7 @@ if ($currentPage !== 'home3' && $currentPage !== 'home4' && $currentPage !== 'ho
       <a href="home3.php" class="df-link <?php echo ($currentPage === 'home3') ? 'active' : ''; ?>" title="Home 3: Green Valley (গ্রীন ভ্যালি)">Home 3 (গ্রীন ভ্যালি)</a>
       <a href="home4.php" class="df-link <?php echo ($currentPage === 'home4') ? 'active' : ''; ?>" title="Home 4: Rivermount School">Home 4 (Rivermount)</a>
       <a href="home5.php" class="df-link <?php echo ($currentPage === 'home5') ? 'active' : ''; ?>" title="Home 5: Bright Future School">Home 5 (Bright Future)</a>
+      <a href="home6.php" class="df-link <?php echo ($currentPage === 'home6') ? 'active' : ''; ?>" title="Home 6: Sunrise International School">Home 6 (Sunrise)</a>
     </div>
   </aside>
 
