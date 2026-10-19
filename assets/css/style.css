@@ -171,29 +171,115 @@ button, input, select, textarea {
   color: var(--primary);
 }
 
-.lang-switch {
-  display: flex;
+/* Universal Language Switcher Pill across All Homepages */
+.lang-switch-pill {
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   background: #f1f5f9;
-  border: 1px solid #e2e8f0;
-  padding: 2px 8px;
-  border-radius: var(--radius-sm);
+  border: 1px solid #cbd5e1;
+  padding: 3px 5px;
+  border-radius: 30px;
+  line-height: 1;
+  vertical-align: middle;
 }
 
-.lang-btn {
+.lang-switch-pill .lang-btn {
   background: transparent;
   border: none;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 0.75rem;
+  font-weight: 700;
+  font-size: 0.76rem;
+  letter-spacing: 0.5px;
   color: #64748b;
-  padding: 1px 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+  line-height: 1.2;
 }
 
-.lang-btn.active {
-  color: var(--primary);
+.lang-switch-pill .lang-btn:hover {
+  color: #0f172a;
+}
+
+.lang-switch-pill .lang-btn.active {
+  background: #0f172a;
+  color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.lang-switch-pill .lang-divider {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  user-select: none;
+  padding: 0 1px;
+}
+
+/* Dark top bar adaptation (Home 1 & Home 2 top bar) */
+.top-bar-right .lang-switch-pill {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.top-bar-right .lang-switch-pill .lang-btn {
+  color: #e2e8f0;
+}
+
+.top-bar-right .lang-switch-pill .lang-btn:hover {
+  color: #ffffff;
+}
+
+.top-bar-right .lang-switch-pill .lang-btn.active {
+  background: #ffffff;
+  color: #0f172a !important;
   font-weight: 800;
+}
+
+.top-bar-right .lang-switch-pill .lang-divider {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Green Valley style (Home 3) */
+.gv-top-bar .lang-switch-pill {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.gv-top-bar .lang-switch-pill .lang-btn {
+  color: #ffffff;
+}
+.gv-top-bar .lang-switch-pill .lang-btn.active {
+  background: #ffffff;
+  color: #0f766e !important;
+}
+
+.gv-nav-links .lang-switch-pill {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+}
+.gv-nav-links .lang-switch-pill .lang-btn.active {
+  background: #0f766e;
+  color: #ffffff !important;
+}
+
+/* Home 4, 5, 6 header switchers */
+.r4-header-actions .lang-switch-pill,
+.r5-header-actions .lang-switch-pill,
+.s6-nav-actions .lang-switch-pill {
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+}
+
+.r4-header-actions .lang-switch-pill .lang-btn.active,
+.r5-header-actions .lang-switch-pill .lang-btn.active,
+.s6-nav-actions .lang-switch-pill .lang-btn.active {
+  background: #111827;
+  color: #ffffff !important;
+}
+
+/* Bengali Typography Enhancement */
+body.lang-bn,
+body.lang-bn * {
+  font-family: 'Hind Siliguri', 'Outfit', -apple-system, sans-serif !important;
 }
 
 .portal-btn {

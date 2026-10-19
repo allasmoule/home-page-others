@@ -50,10 +50,10 @@ if (!isset($siteTitle)) {
       <div class="top-bar-right">
         <a href="tel:+8801712345678" class="top-link"><i class="fa-solid fa-phone"></i> +880 1712-345678</a>
         <a href="mailto:info@xyzschool.edu.bd" class="top-link"><i class="fa-solid fa-envelope"></i> info@xyzschool.edu.bd</a>
-        <div class="lang-switch">
-          <button class="lang-btn active">বাংলা</button>
-          <span>/</span>
-          <button class="lang-btn">EN</button>
+        <div class="lang-switch-pill" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">ENG</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="bn" onclick="setLanguage('bn')">BAN</button>
         </div>
         <a href="#portalModal" onclick="openModal('portalModal')" class="portal-btn"><i class="fa-solid fa-user-lock"></i> লগইন / পোর্টাল</a>
       </div>
@@ -72,6 +72,12 @@ if (!isset($siteTitle)) {
         <a href="#portalModal" onclick="openModal('portalModal')">লগইন</a>
         <span class="gv-top-divider">|</span>
         <a href="#admissionModal" onclick="openModal('admissionModal')">রেজিস্ট্রেশন</a>
+        <span class="gv-top-divider">|</span>
+        <div class="lang-switch-pill lang-switch-gv" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">ENG</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="bn" onclick="setLanguage('bn')">BAN</button>
+        </div>
       </div>
     </div>
   </div>
@@ -98,6 +104,11 @@ if (!isset($siteTitle)) {
         <button class="gv-search-btn" onclick="alert('অনুসন্ধান করতে বিষয় লিখুন...');" title="Search">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
+        <div class="lang-switch-pill lang-switch-gv-nav" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">ENG</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="bn" onclick="setLanguage('bn')">BAN</button>
+        </div>
       </div>
     </div>
   </nav>
@@ -281,6 +292,11 @@ if (!isset($siteTitle)) {
       </ul>
 
       <div class="nav-actions">
+        <div class="lang-switch-pill nav-lang-switch me-2" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">ENG</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="bn" onclick="setLanguage('bn')">BAN</button>
+        </div>
         <a href="#admissionModal" onclick="openModal('admissionModal')" class="btn-admission">
           <i class="fa-solid fa-pen-to-square"></i>
           <span>Online Admission</span>

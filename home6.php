@@ -31,8 +31,13 @@ require_once __DIR__ . '/includes/header.php';
         <a href="#contactSection" class="s6-nav-item">Contact</a>
       </nav>
 
-      <!-- Right Actions: Search & Student Login -->
+      <!-- Right Actions: Language, Search & Student Login -->
       <div class="s6-nav-actions">
+        <div class="lang-switch-pill lang-switch-s6" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">ENG</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="bn" onclick="setLanguage('bn')">BAN</button>
+        </div>
         <button class="s6-search-btn" onclick="alert('Search feature activated. Type your query...')" title="Search">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>

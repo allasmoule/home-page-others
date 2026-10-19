@@ -472,6 +472,7 @@ if ($currentPage !== 'home3' && $currentPage !== 'home4' && $currentPage !== 'ho
   </button>
 
   <!-- JavaScript -->
+  <script src="assets/js/lang.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

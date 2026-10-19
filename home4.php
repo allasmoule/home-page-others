@@ -38,6 +38,11 @@ require_once __DIR__ . '/includes/header.php';
 
       <!-- Right Actions -->
       <div class="r4-header-actions">
+        <div class="lang-switch-pill lang-switch-r4" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn" data-lang="en" onclick="setLanguage('en')">ENG</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" data-lang="bn" onclick="setLanguage('bn')">BAN</button>
+        </div>
         <button class="r4-search-icon-btn" onclick="alert('Search Rivermount School website...')">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
