@@ -78,7 +78,7 @@ if (!isset($siteTitle)) {
   <nav class="gv-navbar">
     <div class="container gv-nav-container">
       <a href="home3.php" class="gv-brand">
-        <img src="assets/images/logo_crest.svg" alt="Green Valley Logo" class="gv-logo-img">
+        <img src="assets/images/gv_logo_exact.png" alt="Green Valley Logo" class="gv-logo-img">
         <div class="gv-brand-text">
           <h2>গ্রীন ভ্যালি স্কুল এন্ড কলেজ</h2>
           <p>কুষ্টিয়া, বাংলাদেশ</p>

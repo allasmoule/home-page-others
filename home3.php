@@ -263,71 +263,63 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ==================== 5. ACADEMIC WINGS SECTION (একাডেমিক শাখা ও পাঠ্যক্রম) ==================== -->
-<section class="section bg-white">
+<section class="h3-academic-section" id="academicSection">
   <div class="container">
     
-    <div class="section-title-wrap text-center mb-5">
-      <span class="section-badge"><i class="fa-solid fa-graduation-cap"></i> শিক্ষা পর্যায়</span>
-      <h2 class="section-heading" style="font-family:var(--font-bn);">আমাদের একাডেমিক পাঠ্যক্রম</h2>
-      <p class="section-subheading" style="font-family:var(--font-bn);">প্রাক-প্রাথমিক থেকে উচ্চ মাধ্যমিক পর্যন্ত যুগোপযোগী আধুনিক শিক্ষা ও মূল্যবোধের সমন্বয়।</p>
+    <div class="h3-sec-title-wrap">
+      <span class="h3-badge"><i class="fa-solid fa-graduation-cap"></i> শিক্ষা পর্যায়</span>
+      <h2 class="h3-heading">আমাদের একাডেমিক পাঠ্যক্রম</h2>
+      <p class="h3-subheading">প্রাক-প্রাথমিক থেকে উচ্চ মাধ্যমিক পর্যন্ত যুগোপযোগী আধুনিক শিক্ষা ও মূল্যবোধের সমন্বয়।</p>
     </div>
 
-    <div class="row g-4">
+    <div class="h3-academic-grid">
       
       <!-- Primary -->
-      <div class="col-lg-3 col-sm-6">
-        <div class="card h-100 border p-4 text-center rounded-4 shadow-sm">
-          <div class="h3-feat-circle feat-circle-blue mx-auto mb-3">
-            <i class="fa-solid fa-shapes"></i>
-          </div>
-          <h4 style="font-family:var(--font-bn); font-weight:800;" class="mb-2">প্রাক-প্রাথমিক শাখা</h4>
-          <p style="font-family:var(--font-bn); font-size:0.92rem; color:#64748b;" class="mb-3">
-            প্লে, নার্সারি ও কেজি শ্রেণির শিশুদের জন্য আনন্দময় মন্টেসরি ও বর্ণমালা শিক্ষা।
-          </p>
-          <span class="badge bg-light text-dark border p-2 mt-auto" style="font-family:var(--font-bn);">শিফট: প্রভাতী শাখা</span>
+      <div class="h3-acad-card">
+        <div class="h3-feat-circle feat-circle-blue">
+          <i class="fa-solid fa-shapes"></i>
         </div>
+        <h4 class="h3-acad-title">প্রাক-প্রাথমিক শাখা</h4>
+        <p class="h3-acad-desc">
+          প্লে, নার্সারি ও কেজি শ্রেণির শিশুদের জন্য আনন্দময় মন্টেসরি ও বর্ণমালা শিক্ষা।
+        </p>
+        <span class="h3-acad-pill">শিফট: প্রভাতী শাখা</span>
       </div>
 
       <!-- Elementary -->
-      <div class="col-lg-3 col-sm-6">
-        <div class="card h-100 border p-4 text-center rounded-4 shadow-sm">
-          <div class="h3-feat-circle feat-circle-teal mx-auto mb-3">
-            <i class="fa-solid fa-pencil"></i>
-          </div>
-          <h4 style="font-family:var(--font-bn); font-weight:800;" class="mb-2">প্রাথমিক শাখা (১ম-৫ম)</h4>
-          <p style="font-family:var(--font-bn); font-size:0.92rem; color:#64748b;" class="mb-3">
-            বাংলা, ইংরেজি, গণিত ও নৈতিক শিক্ষার শক্ত ভিত্তি এবং কম্পিউটার পরিচিতি।
-          </p>
-          <span class="badge bg-light text-dark border p-2 mt-auto" style="font-family:var(--font-bn);">শিফট: প্রভাতী ও দিবা</span>
+      <div class="h3-acad-card">
+        <div class="h3-feat-circle feat-circle-teal">
+          <i class="fa-solid fa-pencil"></i>
         </div>
+        <h4 class="h3-acad-title">প্রাথমিক শাখা (১ম-৫ম)</h4>
+        <p class="h3-acad-desc">
+          বাংলা, ইংরেজি, গণিত ও নৈতিক শিক্ষার শক্ত ভিত্তি এবং কম্পিউটার পরিচিতি।
+        </p>
+        <span class="h3-acad-pill">শিফট: প্রভাতী ও দিবা</span>
       </div>
 
       <!-- Secondary -->
-      <div class="col-lg-3 col-sm-6">
-        <div class="card h-100 border p-4 text-center rounded-4 shadow-sm">
-          <div class="h3-feat-circle feat-circle-cyan mx-auto mb-3">
-            <i class="fa-solid fa-flask"></i>
-          </div>
-          <h4 style="font-family:var(--font-bn); font-weight:800;" class="mb-2">মাধ্যমিক (এসএসসি ৯-১০)</h4>
-          <p style="font-family:var(--font-bn); font-size:0.92rem; color:#64748b;" class="mb-3">
-            বিজ্ঞান ও ব্যবসায় শিক্ষা শাখা, অত্যাধুনিক বিজ্ঞানাগার এবং বোর্ড মডেল টেস্ট।
-          </p>
-          <span class="badge bg-light text-dark border p-2 mt-auto" style="font-family:var(--font-bn);">১০০% জিপিএ-৫ রেকর্ড</span>
+      <div class="h3-acad-card">
+        <div class="h3-feat-circle feat-circle-cyan">
+          <i class="fa-solid fa-flask"></i>
         </div>
+        <h4 class="h3-acad-title">মাধ্যমিক (এসএসসি ৯-১০)</h4>
+        <p class="h3-acad-desc">
+          বিজ্ঞান ও ব্যবসায় শিক্ষা শাখা, অত্যাধুনিক বিজ্ঞানাগার এবং বোর্ড মডেল টেস্ট।
+        </p>
+        <span class="h3-acad-pill">১০০% জিপিএ-৫ রেকর্ড</span>
       </div>
 
       <!-- College -->
-      <div class="col-lg-3 col-sm-6">
-        <div class="card h-100 border p-4 text-center rounded-4 shadow-sm">
-          <div class="h3-feat-circle feat-circle-gold mx-auto mb-3">
-            <i class="fa-solid fa-building-columns"></i>
-          </div>
-          <h4 style="font-family:var(--font-bn); font-weight:800;" class="mb-2">কলেজ শাখা (এইচএসসি)</h4>
-          <p style="font-family:var(--font-bn); font-size:0.92rem; color:#64748b;" class="mb-3">
-            বিজ্ঞান ও মানবিক বিভাগ, বুয়েট, মেডিকেল ও বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি।
-          </p>
-          <span class="badge bg-light text-dark border p-2 mt-auto" style="font-family:var(--font-bn);">কলেজ কোড: ২০৫৮</span>
+      <div class="h3-acad-card">
+        <div class="h3-feat-circle feat-circle-gold">
+          <i class="fa-solid fa-building-columns"></i>
         </div>
+        <h4 class="h3-acad-title">কলেজ শাখা (এইচএসসি)</h4>
+        <p class="h3-acad-desc">
+          বিজ্ঞান ও মানবিক বিভাগ, বুয়েট, মেডিকেল ও বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি।
+        </p>
+        <span class="h3-acad-pill">কলেজ কোড: ২০৫৮</span>
       </div>
 
     </div>
@@ -336,57 +328,53 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ==================== 6. LEADERSHIP MESSAGES (অধ্যক্ষ ও উপাধ্যক্ষের বাণী) ==================== -->
-<section class="section" style="background:#f8fafc;">
+<section class="h3-leadership-section" id="leadershipSection">
   <div class="container">
     
-    <div class="section-title-wrap text-center mb-5">
-      <span class="section-badge"><i class="fa-solid fa-user-tie"></i> প্রাতিষ্ঠানিক দিকনির্দেশনা</span>
-      <h2 class="section-heading" style="font-family:var(--font-bn);">শ্রদ্ধেয় অধ্যক্ষ ও উপাধ্যক্ষের বাণী</h2>
-      <p class="section-subheading" style="font-family:var(--font-bn);">শিক্ষার্থীদের সঠিক দিকনির্দেশনা ও ভবিষ্যতের পথে এগিয়ে নেওয়ার অঙ্গীকার।</p>
+    <div class="h3-sec-title-wrap">
+      <span class="h3-badge"><i class="fa-solid fa-user-tie"></i> প্রাতিষ্ঠানিক দিকনির্দেশনা</span>
+      <h2 class="h3-heading">শ্রদ্ধেয় অধ্যক্ষ ও উপাধ্যক্ষের বাণী</h2>
+      <p class="h3-subheading">শিক্ষার্থীদের সঠিক দিকনির্দেশনা ও ভবিষ্যতের পথে এগিয়ে নেওয়ার অঙ্গীকার।</p>
     </div>
 
-    <div class="row g-4 justify-content-center">
+    <div class="h3-leadership-grid">
       
       <!-- Principal Message Card -->
-      <div class="col-lg-5 col-md-6">
-        <div class="card h-100 border p-4 rounded-4 shadow-sm bg-white">
-          <div class="d-flex align-items-center gap-3 mb-3">
-            <img src="assets/images/principal.jpg" alt="অধ্যক্ষ" class="rounded-circle border" style="width:75px; height:75px; object-fit:cover;">
-            <div>
-              <h4 style="font-family:var(--font-bn); font-weight:800;" class="mb-1">প্রফেসর ড. মোহাম্মদ শামসুজ্জামান</h4>
-              <p class="text-muted small mb-0" style="font-family:var(--font-bn);">অধ্যক্ষ, গ্রীন ভ্যালি স্কুল এন্ড কলেজ</p>
-            </div>
+      <div class="h3-lead-card">
+        <div class="h3-lead-header">
+          <img src="assets/images/principal.jpg" alt="অধ্যক্ষ" class="h3-lead-avatar">
+          <div>
+            <h4 class="h3-lead-name">প্রফেসর ড. মোহাম্মদ শামসুজ্জামান</h4>
+            <p class="h3-lead-role">অধ্যক্ষ, গ্রীন ভ্যালি স্কুল এন্ড কলেজ</p>
           </div>
-          <div class="p-3 bg-light rounded-3 mb-3" style="border-left: 3px solid #0f766e;">
-            <p style="font-family:var(--font-bn); font-size:0.95rem; color:#475569; font-style:italic;" class="mb-0">
-              "আমরা বিশ্বাস করি প্রতিটি শিশুই অপার সম্ভাবনাময়। আধুনিক প্রযুক্তিনির্ভর শিক্ষা ও নৈতিক মূল্যবোধের সমন্বয়ে আমরা শিক্ষার্থীদের আদর্শ নাগরিক হিসেবে গড়ে তুলছি।"
-            </p>
-          </div>
-          <button class="btn btn-outline-secondary btn-sm mt-auto" onclick="openModal('principalModal')" style="font-family:var(--font-bn);">
-            সম্পূর্ণ বক্তব্য পড়ুন <i class="fa-solid fa-arrow-right"></i>
-          </button>
         </div>
+        <div class="h3-lead-quote">
+          <p>
+            "আমরা বিশ্বাস করি প্রতিটি শিশুই অপার সম্ভাবনাময়। আধুনিক প্রযুক্তিনির্ভর শিক্ষা ও নৈতিক মূল্যবোধের সমন্বয়ে আমরা শিক্ষার্থীদের আদর্শ নাগরিক হিসেবে গড়ে তুলছি।"
+          </p>
+        </div>
+        <button class="h3-lead-btn" onclick="openModal('principalModal')">
+          সম্পূর্ণ বক্তব্য পড়ুন <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
 
       <!-- Vice-Principal Message Card -->
-      <div class="col-lg-5 col-md-6">
-        <div class="card h-100 border p-4 rounded-4 shadow-sm bg-white">
-          <div class="d-flex align-items-center gap-3 mb-3">
-            <img src="assets/images/vice_principal.jpg" alt="উপাধ্যক্ষ" class="rounded-circle border" style="width:75px; height:75px; object-fit:cover;">
-            <div>
-              <h4 style="font-family:var(--font-bn); font-weight:800;" class="mb-1">বেগম শাহানা পারভীন</h4>
-              <p class="text-muted small mb-0" style="font-family:var(--font-bn);">উপাধ্যক্ষ ও একাডেমিক সমন্বয়কারী</p>
-            </div>
+      <div class="h3-lead-card">
+        <div class="h3-lead-header">
+          <img src="assets/images/vice_principal.jpg" alt="উপাধ্যক্ষ" class="h3-lead-avatar">
+          <div>
+            <h4 class="h3-lead-name">বেগম শাহানা পারভীন</h4>
+            <p class="h3-lead-role">উপাধ্যক্ষ ও একাডেমিক সমন্বয়কারী</p>
           </div>
-          <div class="p-3 bg-light rounded-3 mb-3" style="border-left: 3px solid #0f766e;">
-            <p style="font-family:var(--font-bn); font-size:0.95rem; color:#475569; font-style:italic;" class="mb-0">
-              "শিক্ষার্থীদের নিয়মিত পাঠদান, সৃজনশীল মেধার বিকাশ এবং অভিভাবকদের সাথে নিবিড় যোগাযোগের মাধ্যমে আমরা একটি নিরাপদ ও অনুপ্রেরণামূলক পরিবেশ নিশ্চিত করি।"
-            </p>
-          </div>
-          <button class="btn btn-outline-secondary btn-sm mt-auto" onclick="openModal('vicePrincipalModal')" style="font-family:var(--font-bn);">
-            সম্পূর্ণ বক্তব্য পড়ুন <i class="fa-solid fa-arrow-right"></i>
-          </button>
         </div>
+        <div class="h3-lead-quote">
+          <p>
+            "শিক্ষার্থীদের নিয়মিত পাঠদান, সৃজনশীল মেধার বিকাশ এবং অভিভাবকদের সাথে নিবিড় যোগাযোগের মাধ্যমে আমরা একটি নিরাপদ ও অনুপ্রেরণামূলক পরিবেশ নিশ্চিত করি।"
+          </p>
+        </div>
+        <button class="h3-lead-btn" onclick="openModal('vicePrincipalModal')">
+          সম্পূর্ণ বক্তব্য পড়ুন <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
 
     </div>
@@ -395,28 +383,28 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ==================== 7. TRUST METRICS STRIP (বিদ্যালয়ের অর্জন) ==================== -->
-<section class="section py-5 bg-white border-top border-bottom">
+<section class="h3-stats-strip">
   <div class="container">
-    <div class="row g-4 text-center">
+    <div class="h3-stats-grid">
       
-      <div class="col-md-3 col-6">
-        <h2 style="font-family:var(--font-heading); font-size:2.4rem; font-weight:800; color:#0f766e;">৩,৮৫০+</h2>
-        <p style="font-family:var(--font-bn); font-size:1.05rem; font-weight:700; color:#475569;">নিয়মিত শিক্ষার্থী</p>
+      <div class="h3-stat-item">
+        <h2 class="h3-stat-number">৩,৮৫০+</h2>
+        <p class="h3-stat-label">নিয়মিত শিক্ষার্থী</p>
       </div>
 
-      <div class="col-md-3 col-6">
-        <h2 style="font-family:var(--font-heading); font-size:2.4rem; font-weight:800; color:#0f766e;">১৮৫+</h2>
-        <p style="font-family:var(--font-bn); font-size:1.05rem; font-weight:700; color:#475569;">প্রশিক্ষিত শিক্ষক-শিক্ষিকা</p>
+      <div class="h3-stat-item">
+        <h2 class="h3-stat-number">১৮৫+</h2>
+        <p class="h3-stat-label">প্রশিক্ষিত শিক্ষক-শিক্ষিকা</p>
       </div>
 
-      <div class="col-md-3 col-6">
-        <h2 style="font-family:var(--font-heading); font-size:2.4rem; font-weight:800; color:#0f766e;">১০০%</h2>
-        <p style="font-family:var(--font-bn); font-size:1.05rem; font-weight:700; color:#475569;">বোর্ড পরীক্ষায় পাসের হার</p>
+      <div class="h3-stat-item">
+        <h2 class="h3-stat-number">১০০%</h2>
+        <p class="h3-stat-label">বোর্ড পরীক্ষায় পাসের হার</p>
       </div>
 
-      <div class="col-md-3 col-6">
-        <h2 style="font-family:var(--font-heading); font-size:2.4rem; font-weight:800; color:#0f766e;">৯৮.৪%</h2>
-        <p style="font-family:var(--font-bn); font-size:1.05rem; font-weight:700; color:#475569;">বোর্ডে জিপিএ-৫.০০ অর্জন</p>
+      <div class="h3-stat-item">
+        <h2 class="h3-stat-number">৯৮.৪%</h2>
+        <p class="h3-stat-label">বোর্ডে জিপিএ-৫.০০ অর্জন</p>
       </div>
 
     </div>
@@ -424,49 +412,45 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <!-- ==================== 8. PHOTO GALLERY SHOWCASE (ক্যাম্পাস চিত্রশালা) ==================== -->
-<section class="section" style="background:#f8fafc;">
+<section class="h3-gallery-section" id="gallerySection">
   <div class="container">
     
-    <div class="section-title-wrap text-center mb-5">
-      <span class="section-badge"><i class="fa-solid fa-images"></i> চিত্রশালা</span>
-      <h2 class="section-heading" style="font-family:var(--font-bn);">আমাদের ক্যাম্পাস জীবন</h2>
-      <p class="section-subheading" style="font-family:var(--font-bn);">শিক্ষার্থীদের প্রতিদিনের পড়াশোনা, ক্রীড়া প্রতিযোগিতা ও সাংস্কৃতিক উদ্দীপনা।</p>
+    <div class="h3-sec-title-wrap">
+      <span class="h3-badge"><i class="fa-solid fa-images"></i> চিত্রশালা</span>
+      <h2 class="h3-heading">আমাদের ক্যাম্পাস জীবন</h2>
+      <p class="h3-subheading">শিক্ষার্থীদের প্রতিদিনের পড়াশোনা, ক্রীড়া প্রতিযোগিতা ও সাংস্কৃতিক উদ্দীপনা।</p>
     </div>
 
-    <div class="row g-3">
-      <div class="col-md-3 col-sm-6">
-        <div class="rounded-4 overflow-hidden border shadow-sm" style="height:210px;">
-          <img src="assets/images/gallery_classroom.jpg" alt="ক্লাসরুম" class="w-100 h-100" style="object-fit:cover;">
-        </div>
+    <div class="h3-gallery-grid">
+      <div class="h3-gal-frame">
+        <img src="assets/images/gallery_classroom.jpg" alt="ক্লাসরুম" class="h3-gal-img">
+        <div class="h3-gal-overlay"><span>ডিজিটাল ক্লাসরুম</span></div>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="rounded-4 overflow-hidden border shadow-sm" style="height:210px;">
-          <img src="assets/images/gallery_science.jpg" alt="বিজ্ঞান ল্যাব" class="w-100 h-100" style="object-fit:cover;">
-        </div>
+      <div class="h3-gal-frame">
+        <img src="assets/images/gallery_science.jpg" alt="বিজ্ঞান ল্যাব" class="h3-gal-img">
+        <div class="h3-gal-overlay"><span>বিজ্ঞানাগার</span></div>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="rounded-4 overflow-hidden border shadow-sm" style="height:210px;">
-          <img src="assets/images/gallery_sports.jpg" alt="বার্ষিক খেলাধুলা" class="w-100 h-100" style="object-fit:cover;">
-        </div>
+      <div class="h3-gal-frame">
+        <img src="assets/images/gallery_sports.jpg" alt="বার্ষিক খেলাধুলা" class="h3-gal-img">
+        <div class="h3-gal-overlay"><span>বার্ষিক ক্রীড়া</span></div>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="rounded-4 overflow-hidden border shadow-sm" style="height:210px;">
-          <img src="assets/images/gallery_cultural.jpg" alt="সাংস্কৃতিক উৎসব" class="w-100 h-100" style="object-fit:cover;">
-        </div>
+      <div class="h3-gal-frame">
+        <img src="assets/images/gallery_cultural.jpg" alt="সাংস্কৃতিক উৎসব" class="h3-gal-img">
+        <div class="h3-gal-overlay"><span>সাংস্কৃতিক অনুষ্ঠান</span></div>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- ==================== 5. GREEN VALLEY MOCKUP FOOTER (100% EXACT SAMPLE MATCH) ==================== -->
+<!-- ==================== 9. GREEN VALLEY MOCKUP FOOTER (100% EXACT SAMPLE MATCH) ==================== -->
 <footer class="gv-footer" id="contactSection">
   <div class="container">
     <div class="gv-footer-grid">
       <!-- Col 1: Brand -->
       <div class="gv-footer-col">
         <div class="gv-footer-brand">
-          <img src="assets/images/logo_crest.svg" alt="Green Valley Logo" class="gv-footer-logo">
+          <img src="assets/images/gv_logo_exact.png" alt="Green Valley Logo" class="gv-footer-logo">
           <div>
             <h3>গ্রীন ভ্যালি স্কুল এন্ড কলেজ</h3>
             <p>কুষ্টিয়া, বাংলাদেশ</p>
