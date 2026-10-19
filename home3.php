@@ -38,7 +38,7 @@ require_once __DIR__ . '/includes/header.php';
       <!-- Right Photo Column -->
       <div class="h3-hero-right">
         <div class="h3-hero-photo-wrap">
-          <img src="assets/images/hero_students.jpg" alt="গ্রীন ভ্যালি স্কুল শিক্ষার্থী" class="h3-hero-photo">
+          <img src="assets/images/gv_hero_students.jpg" alt="গ্রীন ভ্যালি স্কুল শিক্ষার্থী" class="h3-hero-photo">
         </div>
       </div>
 
@@ -107,7 +107,7 @@ require_once __DIR__ . '/includes/header.php';
       
       <!-- Left Photo -->
       <div class="h3-about-img-frame">
-        <img src="assets/images/about_campus.jpg" alt="বিদ্যালয় ক্যাম্পাস ভবন" class="h3-about-img">
+        <img src="assets/images/gv_about_building.jpg" alt="বিদ্যালয় ক্যাম্পাস ভবন" class="h3-about-img">
       </div>
 
       <!-- Right Description -->
@@ -459,30 +459,48 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 </section>
 
-<!-- ==================== 9. ADMISSION CTA BANNER ==================== -->
-<section class="py-5 text-white" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);" id="contactFooter">
-  <div class="container text-center">
-    <div style="max-width:760px; margin:0 auto;">
-      <span class="badge mb-3 px-3 py-2" style="background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); font-family:var(--font-bn); color:#fde047;">
-        ভর্তি চলছে ২০২৬-২০২৭ সেশন
-      </span>
-      <h2 style="font-family:var(--font-bn); font-size:2.4rem; font-weight:800;" class="mb-3">
-        আপনার সন্তানের আলোকিত ভবিষ্যৎ গড়তে আজই ভর্তি করুন
-      </h2>
-      <p style="font-family:var(--font-bn); font-size:1.1rem; color:#cbd5e1;" class="mb-4">
-        প্লে-গ্রুপ থেকে ৯ম শ্রেণি এবং একাদশ শ্রেণিতে (এইচএসসি) সীমিত আসনে ভর্তি চলছে।
-      </p>
-      <div class="d-flex justify-content-center gap-3 flex-wrap">
-        <button class="h3-btn-green" onclick="openModal('admissionModal')">
-          <i class="fa-solid fa-file-signature"></i> অনলাইন ভর্তি ফরম পূরণ
-        </button>
-        <a href="tel:+8801712345678" class="btn btn-outline-light btn-lg" style="font-family:var(--font-bn); font-weight:700;">
-          <i class="fa-solid fa-phone"></i> হটলাইন: ০১৭১২-৩৪৫৬৭৮
-        </a>
+<!-- ==================== 5. GREEN VALLEY MOCKUP FOOTER (100% EXACT SAMPLE MATCH) ==================== -->
+<footer class="gv-footer" id="contactSection">
+  <div class="container">
+    <div class="gv-footer-grid">
+      <!-- Col 1: Brand -->
+      <div class="gv-footer-col">
+        <div class="gv-footer-brand">
+          <img src="assets/images/logo_crest.svg" alt="Green Valley Logo" class="gv-footer-logo">
+          <div>
+            <h3>গ্রীন ভ্যালি স্কুল এন্ড কলেজ</h3>
+            <p>কুষ্টিয়া, বাংলাদেশ</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Col 2: Contact -->
+      <div class="gv-footer-col">
+        <h4 class="gv-footer-heading">যোগাযোগ</h4>
+        <ul class="gv-contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> কুষ্টিয়া, বাংলাদেশ</li>
+          <li><i class="fa-solid fa-phone"></i> ০১৭১২-৩৪৫৬০৭</li>
+          <li><i class="fa-solid fa-envelope"></i> info@greenvalleyschool.edu.bd</li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Social Media -->
+      <div class="gv-footer-col">
+        <h4 class="gv-footer-heading">সোশ্যাল মিডিয়া</h4>
+        <div class="gv-social-links">
+          <a href="#" class="gv-social-btn" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="gv-social-btn" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" class="gv-social-btn" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
       </div>
     </div>
+
+    <!-- Copyright -->
+    <div class="gv-footer-bottom">
+      <p>&copy; ২০২৪ গ্রীন ভ্যালি স্কুল এন্ড কলেজ। সর্বস্বত্ব সংরক্ষিত।</p>
+    </div>
   </div>
-</section>
+</footer>
 
 <!-- Custom Notice Modal Handler -->
 <script>

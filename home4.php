@@ -88,10 +88,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Right Column -->
         <div class="r4-hero-right">
           <div class="r4-hero-photo-box">
-            <img src="assets/images/hero_students.jpg" alt="Rivermount School Students" class="r4-hero-img">
-            <div class="r4-cursive-tag">
-              Better<br>Students<br>Brighter<br>Tomorrow
-            </div>
+            <img src="assets/images/r4_hero.jpg" alt="Rivermount School Students" class="r4-hero-img">
           </div>
         </div>
 
@@ -158,7 +155,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Right Photo -->
         <div class="r4-about-visual">
           <div class="r4-about-img-frame">
-            <img src="assets/images/r4_building.jpg" alt="Rivermount School Campus Building" class="r4-about-img">
+            <img src="assets/images/r4_building_exact.jpg" alt="Rivermount School Campus Building" class="r4-about-img">
           </div>
         </div>
 
@@ -232,7 +229,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Program 1: Primary Section -->
         <div class="r4-program-card">
           <div class="r4-prog-thumb">
-            <img src="assets/images/r4_elem_boy.jpg" alt="Primary Section">
+            <img src="assets/images/r4_primary_exact.jpg" alt="Primary Section">
           </div>
           <div class="r4-prog-body">
             <h3>Primary Section</h3>
@@ -247,7 +244,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Program 2: Secondary Section -->
         <div class="r4-program-card">
           <div class="r4-prog-thumb">
-            <img src="assets/images/r4_secondary.jpg" alt="Secondary Section">
+            <img src="assets/images/r4_secondary_exact.jpg" alt="Secondary Section">
           </div>
           <div class="r4-prog-body">
             <h3>Secondary Section</h3>
@@ -262,7 +259,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Program 3: Higher Secondary -->
         <div class="r4-program-card">
           <div class="r4-prog-thumb">
-            <img src="assets/images/r4_higher_sec.jpg" alt="Higher Secondary">
+            <img src="assets/images/r4_higher_exact.jpg" alt="Higher Secondary">
           </div>
           <div class="r4-prog-body">
             <h3>Higher Secondary</h3>
@@ -294,27 +291,27 @@ require_once __DIR__ . '/includes/header.php';
         <div class="r4-facilities-grid">
           
           <div class="r4-fac-card">
-            <img src="assets/images/r4_primary.jpg" alt="Modern Classrooms">
+            <img src="assets/images/r4_fac_classroom.jpg" alt="Modern Classrooms">
             <div class="r4-fac-label"><i class="fa-solid fa-chalkboard"></i> Modern Classrooms</div>
           </div>
 
           <div class="r4-fac-card">
-            <img src="assets/images/r4_lab.jpg" alt="Science Laboratory">
+            <img src="assets/images/r4_fac_lab.jpg" alt="Science Laboratory">
             <div class="r4-fac-label"><i class="fa-solid fa-flask"></i> Science Laboratory</div>
           </div>
 
           <div class="r4-fac-card">
-            <img src="assets/images/r4_library.jpg" alt="Library">
+            <img src="assets/images/r4_fac_library.jpg" alt="Library">
             <div class="r4-fac-label"><i class="fa-solid fa-book"></i> Library</div>
           </div>
 
           <div class="r4-fac-card">
-            <img src="assets/images/gallery_sports.jpg" alt="Sports Facilities">
+            <img src="assets/images/r4_fac_sports.jpg" alt="Sports Facilities">
             <div class="r4-fac-label"><i class="fa-solid fa-futbol"></i> Sports Facilities</div>
           </div>
 
           <div class="r4-fac-card">
-            <img src="assets/images/about_campus.jpg" alt="Safe & Secure Campus">
+            <img src="assets/images/r4_fac_campus.jpg" alt="Safe & Secure Campus">
             <div class="r4-fac-label"><i class="fa-solid fa-shield-halved"></i> Safe &amp; Secure Campus</div>
           </div>
 
@@ -440,19 +437,19 @@ require_once __DIR__ . '/includes/header.php';
 
       <div class="r4-gallery-grid">
         <div class="r4-gallery-thumb">
-          <img src="assets/images/hero_students.jpg" alt="Students in Campus">
+          <img src="assets/images/r4_gal_outdoor.jpg" alt="Students in Campus">
         </div>
         <div class="r4-gallery-thumb">
-          <img src="assets/images/gallery_classroom.jpg" alt="Classroom Discussion">
+          <img src="assets/images/r4_gal_library.jpg" alt="Classroom Discussion">
         </div>
         <div class="r4-gallery-thumb">
-          <img src="assets/images/gallery_science.jpg" alt="Science Experiment">
+          <img src="assets/images/r4_gal_science.jpg" alt="Science Experiment">
         </div>
         <div class="r4-gallery-thumb">
-          <img src="assets/images/gallery_sports.jpg" alt="Sports Match">
+          <img src="assets/images/r4_gal_sports.jpg" alt="Sports Match">
         </div>
         <div class="r4-gallery-thumb">
-          <img src="assets/images/gallery_cultural.jpg" alt="Cultural Dance Program">
+          <img src="assets/images/r4_gal_dance.jpg" alt="Cultural Dance Program">
         </div>
       </div>
 
@@ -472,7 +469,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <div class="r4-testimonial-card">
-        <img src="assets/images/r4_parent.jpg" alt="Parent Avatar" class="r4-parent-avatar">
+        <img src="assets/images/r4_parent_exact.jpg" alt="Parent Avatar" class="r4-parent-avatar">
         <div>
           <div class="r4-testi-quote-icon">&ldquo;</div>
           <p class="r4-testi-text">
@@ -494,7 +491,7 @@ require_once __DIR__ . '/includes/header.php';
       <div class="r4-cta-card">
         
         <div class="r4-cta-left">
-          <img src="assets/images/r4_admission.jpg" alt="Prospective Student" class="r4-cta-avatar">
+          <img src="assets/images/r4_cta_girl_exact.jpg" alt="Prospective Student" class="r4-cta-avatar">
           <div class="r4-cta-text">
             <h3>Admission Now Open</h3>
             <p>Give your child the opportunity to learn, grow and build a brighter future.</p>

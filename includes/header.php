@@ -37,35 +37,15 @@ if (!isset($siteTitle)) {
 </head>
 <body>
 
-  <!-- Top Utilities Bar -->
+  <!-- ==================== CONDITIONAL HEADERS BY PAGE ==================== -->
+  <?php if ($currentPage === 'home1' || $currentPage === 'home2'): ?>
+  <!-- Top Utilities Bar for Home 1 & 2 -->
   <div class="top-bar">
     <div class="container top-bar-inner">
       <div class="top-bar-left">
-        <!-- Quick Home Version Selector -->
-        <div class="home-switch-container">
-          <span class="switch-label"><i class="fa-solid fa-layer-group"></i> Homepage:</span>
-          <a href="index.php" class="home-switch-tab <?php echo ($currentPage === 'home1') ? 'active' : ''; ?>">
-            <i class="fa-solid fa-school"></i> Home 1 (Classic)
-          </a>
-          <a href="home2.php" class="home-switch-tab <?php echo ($currentPage === 'home2') ? 'active' : ''; ?>">
-            <i class="fa-solid fa-laptop-code"></i> Home 2 (Bento)
-          </a>
-          <a href="home3.php" class="home-switch-tab <?php echo ($currentPage === 'home3') ? 'active' : ''; ?>">
-            <i class="fa-solid fa-feather-pointed"></i> Home 3 (Green Valley)
-          </a>
-          <a href="home4.php" class="home-switch-tab <?php echo ($currentPage === 'home4') ? 'active' : ''; ?>">
-            <i class="fa-solid fa-book-open"></i> Home 4 (Rivermount)
-          </a>
-          <a href="home5.php" class="home-switch-tab <?php echo ($currentPage === 'home5') ? 'active' : ''; ?>">
-            <i class="fa-solid fa-sun"></i> Home 5 (Bright Future)
-          </a>
-        </div>
+        <span class="top-link"><i class="fa-solid fa-bullhorn text-gold"></i> Admission Open for Session 2026-2027! Apply online or visit campus.</span>
       </div>
       <div class="top-bar-right">
-        <?php if ($currentPage === 'home3'): ?>
-          <span class="top-link d-none d-md-inline"><i class="fa-solid fa-calendar-day"></i> আজ: <?php echo date("d M Y"); ?></span>
-          <span class="top-link d-none d-lg-inline"><i class="fa-solid fa-quote-left"></i> শিক্ষাই আলো, শিক্ষাই শক্তি</span>
-        <?php endif; ?>
         <a href="tel:+8801712345678" class="top-link"><i class="fa-solid fa-phone"></i> +880 1712-345678</a>
         <a href="mailto:info@xyzschool.edu.bd" class="top-link"><i class="fa-solid fa-envelope"></i> info@xyzschool.edu.bd</a>
         <div class="lang-switch">
@@ -77,8 +57,51 @@ if (!isset($siteTitle)) {
       </div>
     </div>
   </div>
+  <?php elseif ($currentPage === 'home3'): ?>
+  <!-- Green Valley Mockup Top Bar (100% Exact to Uploaded Sample) -->
+  <div class="gv-top-bar">
+    <div class="container gv-top-bar-inner">
+      <div class="gv-top-motto">
+        <i class="fa-solid fa-graduation-cap"></i> শিক্ষাই আলো, শিক্ষাই শক্তি
+      </div>
+      <div class="gv-top-right">
+        <span><i class="fa-regular fa-calendar-check"></i> আজ: <?php echo date("d M Y"); ?></span>
+        <span class="gv-top-divider">|</span>
+        <a href="#portalModal" onclick="openModal('portalModal')">লগইন</a>
+        <span class="gv-top-divider">|</span>
+        <a href="#admissionModal" onclick="openModal('admissionModal')">রেজিস্ট্রেশন</a>
+      </div>
+    </div>
+  </div>
 
-  <?php if ($currentPage !== 'home4' && $currentPage !== 'home5'): ?>
+  <!-- Green Valley Mockup Navbar (100% Exact Single-Line White Header) -->
+  <nav class="gv-navbar">
+    <div class="container gv-nav-container">
+      <a href="home3.php" class="gv-brand">
+        <img src="assets/images/logo_crest.svg" alt="Green Valley Logo" class="gv-logo-img">
+        <div class="gv-brand-text">
+          <h2>গ্রীন ভ্যালি স্কুল এন্ড কলেজ</h2>
+          <p>কুষ্টিয়া, বাংলাদেশ</p>
+        </div>
+      </a>
+
+      <div class="gv-nav-links">
+        <a href="home3.php" class="gv-nav-item active">হোম</a>
+        <a href="#aboutSection" class="gv-nav-item">আমাদের সম্পর্কে</a>
+        <a href="#academicSection" class="gv-nav-item">একাডেমিক</a>
+        <a href="#admissionModal" onclick="openModal('admissionModal')" class="gv-nav-item">ভর্তি</a>
+        <a href="#noticeSection" class="gv-nav-item">নোটিশ</a>
+        <a href="#gallerySection" class="gv-nav-item">গ্যালারী</a>
+        <a href="#contactSection" class="gv-nav-item">যোগাযোগ</a>
+        <button class="gv-search-btn" onclick="alert('অনুসন্ধান করতে বিষয় লিখুন...');" title="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <?php endif; ?>
+
+  <?php if ($currentPage === 'home1' || $currentPage === 'home2'): ?>
   <!-- Main School Branding Header -->
   <header class="main-header">
     <div class="container header-container">

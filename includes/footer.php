@@ -1,6 +1,6 @@
 <?php
 // includes/footer.php
-if ($currentPage !== 'home4' && $currentPage !== 'home5'):
+if ($currentPage !== 'home3' && $currentPage !== 'home4' && $currentPage !== 'home5'):
 ?>
   <!-- Admission Call To Action Banner -->
   <section class="admission-cta-section">
@@ -452,6 +452,18 @@ if ($currentPage !== 'home4' && $currentPage !== 'home5'):
       </div>
     </div>
   </div>
+
+  <!-- Floating Homepage Switcher Pill (Non-intrusive, allows switching between Home 1, 2, 3, 4, 5 easily) -->
+  <aside class="df-floating-pill" id="demoPill" aria-label="Demo Homepage Switcher">
+    <div class="df-pill-label"><i class="fa-solid fa-layer-group"></i> <span>Homepage:</span></div>
+    <div class="df-pill-links">
+      <a href="index.php" class="df-link <?php echo ($currentPage === 'home1') ? 'active' : ''; ?>" title="Home 1: XYZ Classic">Home 1 (XYZ)</a>
+      <a href="home2.php" class="df-link <?php echo ($currentPage === 'home2') ? 'active' : ''; ?>" title="Home 2: Bento Smart">Home 2 (Smart)</a>
+      <a href="home3.php" class="df-link <?php echo ($currentPage === 'home3') ? 'active' : ''; ?>" title="Home 3: Green Valley (গ্রীন ভ্যালি)">Home 3 (গ্রীন ভ্যালি)</a>
+      <a href="home4.php" class="df-link <?php echo ($currentPage === 'home4') ? 'active' : ''; ?>" title="Home 4: Rivermount School">Home 4 (Rivermount)</a>
+      <a href="home5.php" class="df-link <?php echo ($currentPage === 'home5') ? 'active' : ''; ?>" title="Home 5: Bright Future School">Home 5 (Bright Future)</a>
+    </div>
+  </aside>
 
   <!-- Back to top button -->
   <button id="backToTop" class="back-to-top" title="Back to top">

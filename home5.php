@@ -87,7 +87,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Right Photo -->
         <div class="r5-hero-visual">
           <div class="r5-hero-img-box">
-            <img src="assets/images/hero_students.jpg" alt="Bright Future School Students" class="r5-hero-img">
+            <img src="assets/images/r5_hero_exact.jpg" alt="Bright Future School Students" class="r5-hero-img">
           </div>
         </div>
 
@@ -155,7 +155,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Column 2: Center School Photo -->
         <div class="r5-about-visual">
           <div class="r5-about-img-frame">
-            <img src="assets/images/r4_building.jpg" alt="Bright Future School Modern Campus" class="r5-about-img">
+            <img src="assets/images/r5_building_exact.jpg" alt="Bright Future School Modern Campus" class="r5-about-img">
           </div>
         </div>
 
@@ -242,7 +242,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <!-- Right Large Classroom Photo -->
         <div class="r5-acad-visual">
-          <img src="assets/images/r5_exam_student.jpg" alt="Students Learning in Classroom" class="r5-acad-img">
+          <img src="assets/images/r5_academics_girl_exact.jpg" alt="Students Learning in Classroom" class="r5-acad-img">
         </div>
 
       </div>
@@ -367,7 +367,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
             <div class="r5-promo-visual">
-              <img src="assets/images/r5_promo_girl.jpg" alt="Admission Open - Bright Future School" class="r5-promo-img">
+              <img src="assets/images/r5_cta_girl_exact.jpg" alt="Admission Open - Bright Future School" class="r5-promo-img">
             </div>
 
           </div>
@@ -388,22 +388,22 @@ require_once __DIR__ . '/includes/header.php';
 
       <div class="r5-gallery-grid">
         <div class="r5-gallery-item">
-          <img src="assets/images/r4_building.jpg" alt="School Building Exterior">
+          <img src="assets/images/r5_gal_building.jpg" alt="School Building Exterior">
         </div>
         <div class="r5-gallery-item">
-          <img src="assets/images/r4_library.jpg" alt="Students Reading in Library">
+          <img src="assets/images/r5_gal_library.jpg" alt="Students Reading in Library">
         </div>
         <div class="r5-gallery-item">
-          <img src="assets/images/r5_computer_lab.jpg" alt="Computer Lab Session">
+          <img src="assets/images/r5_gal_computer.jpg" alt="Computer Lab Session">
         </div>
         <div class="r5-gallery-item">
-          <img src="assets/images/gallery_sports.jpg" alt="Football Match">
+          <img src="assets/images/r5_gal_sports.jpg" alt="Football Match">
         </div>
         <div class="r5-gallery-item">
-          <img src="assets/images/gallery_cultural.jpg" alt="Cultural Dance Program">
+          <img src="assets/images/r5_gal_dance.jpg" alt="Cultural Dance Program">
         </div>
         <div class="r5-gallery-item">
-          <img src="assets/images/r5_assembly.jpg" alt="Morning Assembly &amp; Hall">
+          <img src="assets/images/r5_gal_assembly.jpg" alt="Morning Assembly &amp; Hall">
         </div>
       </div>
 
@@ -423,7 +423,7 @@ require_once __DIR__ . '/includes/header.php';
       </div>
 
       <div class="r5-testimonial-card">
-        <img src="assets/images/r4_parent.jpg" alt="Parent Avatar" class="r5-parent-avatar">
+        <img src="assets/images/r5_parent_exact.jpg" alt="Parent Avatar" class="r5-parent-avatar">
         <div>
           <div class="r5-quote-icon">&ldquo;</div>
           <p class="r5-quote-text">
